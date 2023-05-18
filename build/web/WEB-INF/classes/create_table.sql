@@ -1,3 +1,13 @@
+/* 1.Open Apache NetBean.
+   2.Select "Service" .
+   3. Extend Database window
+   4. Right click "Java DB" and "Create Database".
+   5.Type Name user name ,password what you prefered.Click "OK".
+   6.Right click "jdbc:derby://localhost:1527/DBName [Username on USERNAME]",and "Connect"
+   7.Extend "Other schemas" window and set "APP" as Default Schemas.
+   8.Extend "APP" and right click "Table",them "Execute Command"
+   9.Copy the following create statement one by one,and right click the command window select "Run Statement".
+   10.Keep creating all tables. /*
 
 CREATE TABLE users (
     id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
