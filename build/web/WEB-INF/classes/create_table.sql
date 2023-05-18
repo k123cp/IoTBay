@@ -9,6 +9,8 @@ CREATE TABLE users (
     active_status SMALLINT NOT NULL
 );
 
+
+/* create a table one by one, delete a create statement once the table created. */
 /* -- Access Log Table
 CREATE TABLE access_logs (
     id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
