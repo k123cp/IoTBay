@@ -1,17 +1,34 @@
--- User Table
+
 CREATE TABLE users (
     id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-    full_name VARCHAR(255) NOT NULL,
     email VARCHAR(255) UNIQUE NOT NULL,
     password VARCHAR(255) NOT NULL,
-    phone_number VARCHAR(20),
     user_type VARCHAR(255) NOT NULL CHECK(user_type IN ('customer', 'staff', 'system_admin')),
     active_status SMALLINT NOT NULL
 );
+/* create the table one by one, delete the create table statement once a table created. */
+/* -- Customer Table
+CREATE TABLE customers (
+    id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    user_id INT UNIQUE NOT NULL,
+    full_name VARCHAR(255) NOT NULL,
+    phone_number VARCHAR(20),
+    address VARCHAR(255),
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
 
+-- Staff Table
+CREATE TABLE staff (
+    id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    user_id INT UNIQUE NOT NULL,
+    full_name VARCHAR(255) NOT NULL,
+    phone_number VARCHAR(20),
+    job_title VARCHAR(255) NOT NULL,
+    department VARCHAR(255) NOT NULL,
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
 
-/* create a table one by one, delete a create statement once the table created. */
-/* -- Access Log Table
+-- Access Log Table
 CREATE TABLE access_logs (
     id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     user_id INT NOT NULL,
@@ -29,16 +46,16 @@ CREATE TABLE iot_devices (
     quantity INT NOT NULL
 );
 
--- Order Table
+-- Orders Table
 CREATE TABLE orders (
     id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     customer_id INT NOT NULL,
     order_date TIMESTAMP NOT NULL,
     order_status VARCHAR(255) NOT NULL CHECK(order_status IN ('created', 'submitted', 'cancelled')),
-    FOREIGN KEY (customer_id) REFERENCES users(id)
+    FOREIGN KEY (customer_id) REFERENCES customers(id)
 );
 
--- Order Detail Table
+-- Order Details Table
 CREATE TABLE order_details (
     id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     order_id INT NOT NULL,
@@ -69,6 +86,5 @@ CREATE TABLE shipments (
     address VARCHAR(255) NOT NULL,
     shipment_status VARCHAR(255) NOT NULL CHECK(shipment_status IN ('created', 'finalised', 'cancelled')),
     FOREIGN KEY (order_id) REFERENCES orders(id)
-); */
-
-
+);*/
+ 
