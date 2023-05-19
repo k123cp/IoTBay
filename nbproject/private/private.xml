@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/John/Documents/NetBeansProjects/IoTBay-master/web/welcome.jsp</file>
+            <file>file:/C:/Users/John/Documents/NetBeansProjects/IoTBay-master/web/register.jsp</file>
+            <file>file:/C:/Users/John/Documents/NetBeansProjects/IoTBay-master/web/db/TESTING_testData.sql</file>
+            <file>file:/C:/Users/John/Documents/NetBeansProjects/IoTBay-master/src/java/uts/isd/controller/RegisterStaffServlet.java</file>
+            <file>file:/C:/Users/John/Documents/NetBeansProjects/IoTBay-master/src/java/uts/isd/controller/AddUserDetailsServlet.java</file>
+            <file>file:/C:/Users/John/Documents/NetBeansProjects/IoTBay-master/src/java/uts/isd/controller/AddToOrderServlet.java</file>
+            <file>file:/C:/Users/John/Documents/NetBeansProjects/IoTBay-master/web/index.jsp</file>
+            <file>file:/C:/Users/John/Documents/NetBeansProjects/IoTBay-master/web/main.jsp</file>
+            <file>file:/C:/Users/John/Documents/NetBeansProjects/IoTBay-master/src/java/uts/isd/controller/LoginServlet.java</file>
+            <file>file:/C:/Users/John/Documents/NetBeansProjects/IoTBay-master/web/navbar.jsp</file>
+            <file>file:/C:/Users/John/Documents/NetBeansProjects/IoTBay-master/web/webpage.css</file>
+            <file>file:/C:/Users/John/Documents/NetBeansProjects/IoTBay-master/web/addUserDetails.jsp</file>
+            <file>file:/C:/Users/John/Documents/NetBeansProjects/IoTBay-master/web/savedOrder.jsp</file>
+            <file>file:/C:/Users/John/Documents/NetBeansProjects/IoTBay-master/web/accessLogs.jsp</file>
+            <file>file:/C:/Users/John/Documents/NetBeansProjects/IoTBay-master/src/java/uts/isd/controller/Validator.java</file>
+            <file>file:/C:/Users/John/Documents/NetBeansProjects/IoTBay-master/web/registerSelect.jsp</file>
+            <file>file:/C:/Users/John/Documents/NetBeansProjects/IoTBay-master/web/registerStaff.jsp</file>
+            <file>file:/C:/Users/John/Documents/NetBeansProjects/IoTBay-master/src/java/uts/isd/controller/AccessLogServlet.java</file>
+            <file>file:/C:/Users/John/Documents/NetBeansProjects/IoTBay-master/web/orderHistory.jsp</file>
+        </group>
+    </open-files>
+</project-private>
